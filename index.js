@@ -7,32 +7,32 @@ const generateMarkdown = require('./generateMarkdown');
 const questions = [  
     {
         type: 'input',
-        message: 'What is the title for the README file?',
+        message: 'Please provide the title of your application:',
         name: 'title',
     },
     {
         type: 'input',
-        message: 'What is the description for the README file?',
+        message: 'Please provide a detailed description of your application:',
         name: 'discription',
     },
     {
         type: 'input',
-        message: 'What are the steps to install the README file?',
+        message: 'Please provide the steps to install the application:',
         name: 'installation',
     },
     {
         type: 'input',
-        message: 'Provide instrucions for the usage of the README file.',
+        message: 'Please provide instruction for use of your application:',
         name: 'usage',
     },
     {
         type: 'input',
-        message: 'If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so here.',
+        message: 'Please provide guidelines on any contributions made to the application:',
         name: 'contributing',
     },
     {
         type: 'input',
-        message: 'Provide any test to be run here.',
+        message: 'Please provide any tests to run your application:',
         name: 'tests',
     },
 ];
